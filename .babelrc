@@ -1,0 +1,24 @@
+{
+  "targets": {
+    // "esmodules": true,
+    // "node": "current",
+    "browsers": [
+      "last 2 Chrome versions",
+      "last 2 Safari versions",
+      "last 2 iOS versions",
+      "last 2 Edge versions",
+      "Firefox ESR"
+    ]
+  },
+  // "sourceMaps": true,
+  // "minified": true,
+  "presets": [
+    "@babel/preset-typescript",
+    "@babel/preset-env",
+    ["@babel/preset-react", { "runtime": "automatic" }]
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "version": "2023-11" }],
+    "@babel/plugin-transform-runtime"
+  ]
+}
