@@ -11,7 +11,8 @@ export default {
   entry: [resolve('./src/index.tsx')],
   output: {
     path: resolve('dist'),
-    filename: 'main.js',
+    filename: '[name].[fullhash:8].js',
+    chunkFilename: '[name].[fullhash:8].async.js',
     // publicPath: '/static/',
     clean: true,
   },
