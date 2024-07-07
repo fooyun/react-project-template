@@ -45,6 +45,7 @@ export default {
       },
     ],
   },
+  // devtool: 'source-map',
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].[fullhash:8].css',
