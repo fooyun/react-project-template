@@ -1,5 +1,5 @@
 {
-  "name": "react-project-template",
+  "name": "react-starter",
   "version": "1.0.0",
   "description": "A react project template, with webpack + typescript + jest + api mock + less + prettier etc.",
   "main": "index.js",

@@ -1,4 +1,4 @@
-# React Project Template
+# React Starter
 
 A react project template, with webpack5 + typescript + jest + api mock + less + prettier etc.
 
